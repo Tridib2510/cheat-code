@@ -6,6 +6,7 @@ def take_fullscreen_screenshot():
     dir_path=Path.cwd()
     screenshots_dir = dir_path / "screenshots"
     screenshot_path = screenshots_dir / "full_screen.png"
+    screenshots_dir.mkdir(exist_ok=True)
     screenshot.save(screenshot_path)
     print("Screenshot saved as full_screen.png")
     return screenshot_path
