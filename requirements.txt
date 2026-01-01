@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+pydantic
+cloudinary
+python-dotenv
+pyautogui
+pillow
+opencv-python
+mediapipe
+mss

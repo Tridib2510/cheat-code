@@ -1,0 +1,18 @@
+[project]
+name = "cheatcode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cloudinary>=1.44.1",
+    "langchain>=1.2.0",
+    "langchain-groq>=1.1.1",
+    "mediapipe>=0.10.31",
+    "mss>=10.1.0",
+    "opencv-python>=4.12.0.88",
+    "pillow>=12.0.0",
+    "pyautogui>=0.9.54",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]
