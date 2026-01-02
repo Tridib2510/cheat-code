@@ -35,12 +35,7 @@ cheat-code/
 ## 🎬 Demo Video
 
 You can watch the demo video directly below:
-
-<video width="640" height="360" controls>
-  <source src="https://res.cloudinary.com/dsloz7tfz/video/upload/v1767334920/Screen_Recording_2026-01-02_104618_1_uufsti.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+https://res.cloudinary.com/dsloz7tfz/video/upload/v1767334920/Screen_Recording_2026-01-02_104618_1_uufsti.mp4
 
 ---
 
