@@ -34,11 +34,13 @@ cheat-code/
 
 ## 🎬 Demo Video
 
-You can add a demo video of the project here to showcase how it works. For example:
+You can watch the demo video directly below:
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://res.cloudinary.com/dsloz7tfz/video/upload/v1767334920/Screen_Recording_2026-01-02_104618_1_uufsti.mp4)
+<video width="640" height="360" controls>
+  <source src="https://res.cloudinary.com/dsloz7tfz/video/upload/v1767334920/Screen_Recording_2026-01-02_104618_1_uufsti.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-Replace `YOUR_VIDEO_ID` with your actual video ID or link to a hosted demo.
 
 ---
 
