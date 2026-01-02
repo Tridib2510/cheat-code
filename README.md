@@ -32,7 +32,17 @@ cheat-code/
 
 ---
 
-## 🛠️ Step-by-Step Setup Guide
+## 🎬 Demo Video
+
+You can add a demo video of the project here to showcase how it works. For example:
+
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://res.cloudinary.com/dsloz7tfz/video/upload/v1767334920/Screen_Recording_2026-01-02_104618_1_uufsti.mp4)
+
+Replace `YOUR_VIDEO_ID` with your actual video ID or link to a hosted demo.
+
+---
+
+## 🛠️ Step-by-Step Setup Guide (UV Package Manager)
 
 ### Step 1: Clone the Repository
 
@@ -43,37 +53,19 @@ cd cheat-code
 
 ---
 
-### Step 2: Create and Activate a Virtual Environment (Recommended)
+### Step 2: Install Dependencies Using UV
 
 ```bash
-python -m venv venv
+uv install
 ```
 
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**macOS / Linux**
-
-```bash
-source venv/bin/activate
-```
+This will automatically create an isolated environment and install all required dependencies.
 
 ---
 
-### Step 3: Install Dependencies
+### Step 3: Set Up Environment Variables
 
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### Step 4: Set Up Environment Variables
-
-Create a `.env` file in the **root directory** of the project.
+Create a `.env` file in the **root directory** of the project:
 
 ```bash
 touch .env
@@ -96,13 +88,13 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-### Step 5: Run the Application
+### Step 4: Run the Application with UV
 
 ```bash
-python main.py
+uv run main.py
 ```
 
-After running the command, follow the on-screen instructions to analyze and solve DSA problems.
+This ensures your project runs inside the UV-managed environment with all dependencies loaded.
 
 ---
 
